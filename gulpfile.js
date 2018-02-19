@@ -26,7 +26,7 @@
                     return url.replace('src/', '');
                 }
             }))
-            .pipe(concat("templates-redwings.js"))
+            .pipe(concat("templates-georgian.js"))
             .pipe(uglify())
             .pipe(gulp.dest('build/'));
     });
