@@ -134,7 +134,7 @@
 															class="textInp inp-animate-placeholder"
 															error-highlight="{{vm.submitTouched}}">
 														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.firstName' | aliasStatic}}</span>
+															<span>{{ 'web.passengersInfo.label.firstName' | aliasStatic}}</span>
 														</label>
 													</div>
 												</td>
@@ -158,7 +158,7 @@
                                                             model-view-value="true"
                                                             ui-mask-placeholder="{{ 'web.datePattern' | aliasStatic}}"/>
 														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.dateOfBirth' | aliasStatic}}</span>
+															<span>{{ 'web.passengersInfo.label.dateOfBirth' | aliasStatic}}</span>
 														</label>
 													</div>
 												</td>
@@ -183,9 +183,6 @@
                                                                 <div ng-bind-html="gender.name"></div>
                                                             </ui-select-choices>
                                                         </ui-select>
-														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.label.gender' | aliasStatic}}</span>
-														</label>
 													</div>
 												</td>
 											</tr>
@@ -240,9 +237,6 @@
                                                                 <div class="{{ 'documentTypeOption_' + doc.code }}" ng-bind-html="doc.name"></div>
                                                             </ui-select-choices>
                                                         </ui-select>
-														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.label.documentType' | aliasStatic}}</span>
-														</label>
 													</div>
 												</td>
 
@@ -267,7 +261,7 @@
 															class="textInp inp-animate-placeholder"
 															error-highlight="{{vm.submitTouched}}">
 														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.documentNumber' | aliasStatic}}</span>
+															<span>{{ 'web.passengersInfo.label.documentNumber' | aliasStatic}}</span>
 														</label>
 													</div>
 												</td>
@@ -290,7 +284,7 @@
                                                             model-view-value="true"
                                                             ui-mask-placeholder="{{ 'web.datePattern' | aliasStatic}}">
 														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.documentDate' | aliasStatic}}</span>
+															<span>{{ 'web.passengersInfo.label.documentDate' | aliasStatic}}</span>
 														</label>
 													</div>
 												</td>
@@ -315,7 +309,7 @@
 															error-highlight="{{vm.submitTouched}}"
 															placeholder="">
 														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.phone' | aliasStatic}}</span>
+															<span>{{ 'web.passengersInfo.label.phone' | aliasStatic}}</span>
 														</label>
 													</div>
 												</td>
@@ -334,7 +328,7 @@
 															class="textInp inp-animate-placeholder"
 															error-highlight="{{vm.submitTouched}}">
 														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.email' | aliasStatic}}</span>
+															<span>{{ 'web.passengersInfo.label.email' | aliasStatic}}</span>
 														</label>
 													</div>
 												</td>
@@ -365,7 +359,7 @@
                                                             ng-pattern="'passengers.bonusCardRegex' | param"
                                                             error-highlight="{{vm.submitTouched}}">
 														<label class="inp-animate-label">
-															<span>{{ 'web.passengersInfo.bonusCard' | aliasStatic}}</span>
+															<span>{{ 'web.passengersInfo.label.bonusCard' | aliasStatic}}</span>
 														</label>
 													</div>
 												</td>

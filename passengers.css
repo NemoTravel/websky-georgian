@@ -1,5 +1,5 @@
 .passengersInfo .inp .inp-label {
-display: block;
+	display: block;
 }
 .inp-animate-outer{
     margin-top: 16px;
@@ -30,4 +30,10 @@ display: block;
     transform: translate3d(-10px, -30px, 0);
     border: none;
     background: none;
+}
+.passengersInfo input[type="text"],
+.passengersInfo input[type="password"],
+.passengersInfo input[type="tel"],
+.passengersInfo input[type="email"] {
+    height: 40px;
 }
