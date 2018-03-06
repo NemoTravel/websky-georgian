@@ -108,6 +108,7 @@
 														</error-message>
 														<input type="text"
 															name="lastName"
+															autocomplete="off"
 															ng-model="passenger.lastName"
                                                             ng-blur="vm.lastNameBlurHandler(passengerNumber)"
 															required
@@ -127,6 +128,7 @@
 														</error-message>
 														<input type="text"
 															name="firstName"
+															autocomplete="off"
 															ng-model="passenger.firstName"
                                                             ng-blur="vm.firstNameBlurHandler(passengerNumber)"
 															required
@@ -146,6 +148,7 @@
 														</error-message>
 														<input type="text"
 															name="dateOfBirth"
+															autocomplete="off"
 															ng-model="passenger.dateOfBirth"
 															required
 															check-date-format
@@ -254,6 +257,7 @@
 														</info-message>
 														<input type="text"
 															name="documentNumber"
+															autocomplete="off"
 															ng-model="passenger.documentNumber"
 															required
                                                             clean-document-number
@@ -273,6 +277,7 @@
 														</error-message>
 														<input type="text"
 															name="documentDate"
+															autocomplete="off"
 															ng-model="passenger.documentDate"
 															required
 															check-date-format
@@ -300,6 +305,7 @@
 														</error-message>
 														<input type="tel"
 															name="phone"
+															autocomplete="off"
 															ng-model="passenger.phone"
                                                             ng-blur="vm.phoneBlurHandler(passengerNumber)"
                                                             phone-mask
@@ -321,6 +327,7 @@
 														</error-message>
 														<input type="email"
 															name="email"
+															autocomplete="off"
 															ng-model="passenger.email"
                                                             ng-blur="vm.emailBlurHandler(passengerNumber)"
 															ng-required="vm.passengersCheck.requireEmail"
@@ -355,6 +362,7 @@
 														<input type="text"
 															   class="inp-animate-placeholder"
                                                             name="bonusCard"
+															autocomplete="off"
                                                             ng-model="passenger.bonusCard"
                                                             ng-pattern="'passengers.bonusCardRegex' | param"
                                                             error-highlight="{{vm.submitTouched}}">
@@ -390,6 +398,7 @@
 														</error-message>
 														<input type="text"
 															name="lastName"
+															autocomplete="off"
 															ng-model="vm.customer.lastName"
 															required
 															ng-pattern="'customer.lastNameRegexp' | param"
@@ -409,6 +418,7 @@
 														</error-message>
 														<input type="text"
 															name="firstName"
+															autocomplete="off"
 															ng-model="vm.customer.firstName"
 															required
 															ng-pattern="'customer.firstNameRegexp' | param"
@@ -430,6 +440,7 @@
 														</error-message>
 														<input type="tel"
 															name="phone"
+															autocomplete="off"
 															ng-model="vm.customer.phone"
                                                             phone-mask
                                                             ng-pattern="'customer.phoneRegexp' | param"
@@ -449,6 +460,7 @@
 														</error-message>
 														<input type="email"
 															name="email"
+															autocomplete="off"
 															ng-model="vm.customer.email"
 															required
 															ng-pattern="'site.emailRegexp' | param"
@@ -470,6 +482,7 @@
 														</error-message>
 														<input type="password"
 															name="password"
+															autocomplete="off"
 															ng-model="vm.customer.password"
 															required
 															ng-pattern="'site.passwordRegexp' | param"
@@ -488,6 +501,7 @@
 														</error-message>
 														<input type="password"
 															name="passwordRepeat"
+															autocomplete="off"
 															ng-model="vm.customer.passwordRepeat"
 															required
 															ng-pattern="'site.passwordRegexp' | param"
