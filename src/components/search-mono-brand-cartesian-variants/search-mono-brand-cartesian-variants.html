@@ -185,7 +185,8 @@
                                     comparedDateTimeDisable: priceItem.comparedDateTimeDisable
                                 });"></info-box>
                             </wrap>
-                            <span ng-if="!priceItem" class="brandSales">{{ 'web.searchResult.brandSales' | aliasStatic}}</span>
+                            <span ng-if="!priceItem"
+                                  class="brandSales">{{ 'web.searchResult.brandSales' | aliasStatic}}</span>
                         </td>
                     </tr>
                 </table>
@@ -216,7 +217,7 @@
                                name="flight_{{segNum}}"
                                ng-model="vm.selectedFlightRow[segNum]"
                                ng-change="vm.mobileFlightRowChangeHandler(segNum)"
-                               value="{{ rowNum }}" />
+                               value="{{ rowNum }}"/>
                         <span></span>
                         <div class="chooseFlight__list__item__content">
                             <div class="chooseFlight__list__item__content__info">
@@ -331,7 +332,8 @@
                            class="chooseFlight__table__item__content__link">
                             <span ng-bind-html="{ value: priceItem.price, currency: priceItem.currency } | price"></span>
                         </a>
-                        <span ng-if="!priceItem" class="brandSales">{{ 'web.searchResult.brandSales' | aliasStatic}}</span>
+                        <span ng-if="!priceItem"
+                              class="brandSales">{{ 'web.searchResult.brandSales' | aliasStatic}}</span>
                     </div>
                 </div>
 
