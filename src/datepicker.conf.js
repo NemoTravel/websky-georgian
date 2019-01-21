@@ -16,7 +16,6 @@ if (momentLang === 'hy') {
 
 angular.module('app').config(['pikadayConfigProvider', function(pikaday) {
     var ld = moment.localeData(momentLang);
-    console.log(momentLang);
 
     if (!ld) {
         ld = moment.localeData('en');
